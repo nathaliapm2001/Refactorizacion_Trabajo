@@ -7,8 +7,8 @@ public class Employee {
     private double salario;
     private String departamento;
     
-    public void calcularSalarioAnual() {
-        System.out.println(getSalario() * MESES_DEL_ANIO);
+    public double calcularSalarioAnual() {
+        return getSalario() * MESES_DEL_ANIO;
     }
 
 	public String getDepartamento() {
