@@ -2,12 +2,13 @@ package com.refactoring.projects.project03;
 
 public class Employee {
 	
-    private String nombre;
+    private static final int MESES_DEL_ANIO = 12;
+	private String nombre;
     private double salario;
     private String departamento;
     
     public void calcularSalarioAnual() {
-        System.out.println(getSalario() * 12);
+        System.out.println(getSalario() * MESES_DEL_ANIO);
     }
 
 	public String getDepartamento() {
