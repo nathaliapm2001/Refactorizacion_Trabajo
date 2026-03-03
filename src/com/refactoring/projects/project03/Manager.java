@@ -2,13 +2,15 @@ package com.refactoring.projects.project03;
 
 public class Manager {
 	
-    private String nombre;
+    private static final int BONO_POR_EMPLEADO = 1000;
+	private static final int MESES_DEL_ANIO = 12;
+	private String nombre;
     private double salario;
     private String departamento;
     private int empleadosACargo;
     
     public void calcularSalarioAnual() {
-        System.out.println(getSalario() * 12 + getEmpleadosACargo() * 1000);
+        System.out.println(getSalario() * MESES_DEL_ANIO + getEmpleadosACargo() * BONO_POR_EMPLEADO);
     }
 
 	public int getEmpleadosACargo() {
