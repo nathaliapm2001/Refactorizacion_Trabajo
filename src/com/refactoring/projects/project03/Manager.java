@@ -10,8 +10,12 @@ public class Manager {
     private int empleadosACargo;
     
     public void calcularSalarioAnual() {
-        System.out.println(getSalario() * MESES_DEL_ANIO + getEmpleadosACargo() * BONO_POR_EMPLEADO);
+        System.out.println(getSalario() * MESES_DEL_ANIO + calcularBono());
     }
+
+	private int calcularBono() {
+		return getEmpleadosACargo() * BONO_POR_EMPLEADO;
+	}
 
 	public int getEmpleadosACargo() {
 		return empleadosACargo;
