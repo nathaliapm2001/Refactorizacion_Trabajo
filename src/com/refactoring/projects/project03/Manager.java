@@ -9,8 +9,8 @@ public class Manager {
     private String departamento;
     private int empleadosACargo;
     
-    public void calcularSalarioAnual() {
-        System.out.println(getSalario() * MESES_DEL_ANIO + calcularBono());
+    public double calcularSalarioAnual() {
+        return getSalario() * MESES_DEL_ANIO + calcularBono();
     }
 
 	private int calcularBono() {
