@@ -1,6 +1,17 @@
 package com.refactoring.projects.project03;
 
+/**
+ * Clase principa.Se encarga de la instanciación de objetos y la impresion de resultados.
+ * @author Nathalia Piñera Molina
+ * @version 1.0
+ */
+
 public class EmployeeManager {
+	
+	/**
+     * Punto de entrada de la aplicación.
+     * @param args Argumentos de la línea de comandos (no utilizados).
+     */
 
     public static void main(String[] args) {
         // 1. Creamos un Empleado 
@@ -23,8 +34,13 @@ public class EmployeeManager {
     }
 
     
+    /**
+     * Método auxiliar.
+     * Muestra de forma formateada el nombre y el salario anual calculado.
+     * @param nombre El nombre completo del empleado o manager.
+     * @param salarioAnual El valor numérico del salario total.
+     */
     
-    // Método auxiliar para evitar repetir código de impresión
     private static void imprimirDatos(String nombre, double salarioAnual) {
         System.out.println("Empleado: " + nombre + " | Salario Anual: " + salarioAnual + "€");
     }
