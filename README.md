@@ -23,8 +23,9 @@ Se han implementado las siguientes mejoras siguiendo el flujo de ramas `feature/
 * **`develop`**: Rama principal de desarrollo donde se integran las funcionalidades.
 * **`feature/`**: Ramas temporales para cada refactorización específica (ej. `feature/numeros-magicos`).
 
-## 📚 Documentación
-La documentación técnica del proyecto ha sido generada con Javadoc y se puede consultar en la carpeta del repositorio:
 
-* [Ver Javadoc (Index)](./doc/index.html)
+## 🌐 Documentación Online
+Puedes consultar la documentación técnica interactiva aquí:
+👉 [Ver Javadoc en la Web](https://nathaliapm2001.github.io/Refactorizacion_Trabajo/index.html)
+
 
